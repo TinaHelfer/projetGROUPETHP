@@ -1,0 +1,268 @@
+html body {
+    margin: 0; padding: 0;
+    height: 100%;
+}
+
+body
+{
+  padding-right: 2em;
+}
+
+.all {
+  background-image: asset-data-url('Thpback.jpeg');
+  background-size: cover;
+  height: 850px;
+}
+
+.autrepage {
+background-blend-mode: color-burn;
+background-color: rgba(255, 255, 255, 0.85);
+opacity: 20%;
+}
+
+.page {
+  display: flex;
+  flex-flow: row wrap
+}
+
+.page > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+li, a
+{
+    list-style-type: none;
+    list-style-image: none;
+}
+
+.logo
+{
+  border-radius: 40px;
+}
+header {
+  font-size: 13px;
+  padding: 0 30px;      /* marge intérieure */
+}
+
+header ul#list1 {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header li {
+  margin-left: 23px;
+}
+
+a.pierre
+{
+  font-size: 25px;
+  color: #b38f00;
+}
+
+.nav1
+{
+
+    margin-right: 10em;
+}
+.babar
+{
+
+
+}
+
+.dropdown-menu
+{
+  display: none;
+  position: absolute;
+  min-width: 80px;
+  z-index: 1;
+}
+
+.dropdown-item
+{
+    padding: 20px 20px;
+    color: black;
+}
+
+.dropdown-item:hover {
+  text-decoration: none;
+  color: #b38f00;
+}
+
+section.secheader{
+    margin-left: 190px;
+    height: 70%;
+    padding-top: 5%;
+    text-align: center;
+    font-family: 'Bungee Inline';font-size: 22px;
+    color: #b38f00;
+    text-shadow: 10px 10px 2px #1a1212;
+}
+
+ul.listmid
+{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.bouttontest {
+  border-radius: 40px;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: 'Monoton';font-size: 22px;
+  color: black;
+  font-size: 24px;
+  background: #b38f00;
+  padding: 11px 20px 10px 20px;
+  border: solid #b38f00 2px;
+  text-decoration: none;
+}
+
+.bouttontest:hover {
+  background: none;
+  color: #b38f00;
+  text-decoration: none;
+}
+
+article.peertest{
+  text-align: justify;
+text-justify: inter-word;
+}
+
+article.peertest h1 {
+  text-align:center;
+  color:  #b38f00;
+}
+
+article.peertest h2 {
+  text-align:left;
+  color: black;
+}
+
+article.peertest h3 {
+  text-align:left;
+  color: black;
+}
+
+article.peertest p{
+  font-size: 14px;
+}
+
+.paragrapheun {
+margin-right: 700px;
+margin-left: 100px;
+}
+
+.paragraphedeux {
+margin-right: 100px;
+margin-left: 700px;
+}
+
+.nextgen {
+ background-color: #f5f9fb;
+ border-top : 1px solid #c1c1c1;
+ border-bottom : 1px solid #c1c1c1;
+ padding-top: 10px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 100%;
+}
+
+.nextgen p {
+ color: gray;
+}
+
+.nextgencont {
+ display: flex;
+ flex-wrap: wrap;
+ width: 80%;
+ justify-content: center;
+}
+
+.arguments{
+ width: 25%;
+ margin : 30px;
+ font-size: 90%;
+}
+
+.arguments a{
+ color: #6CC496;
+text-decoration: none;
+}
+
+.iconsize
+{
+ font-size: 35px;
+ color: #ff6600;
+}
+.iconsize1
+{
+ font-size: 35px;
+ color: #E9CA2C;
+}
+.iconsize2
+{
+ font-size: 35px;
+ color: #0066ff;
+}
+.iconsize3
+{
+ font-size: 35px;
+ color: #00cc00;
+}
+.iconsize4
+{
+ font-size: 35px;
+ color: #cc33ff;
+}
+.iconsize5
+{
+ font-size: 35px;
+ color: #ff0000;
+}
+
+.footer {
+ background-color: #f2f2f2;
+ height: 50px;
+ width: 100%;
+
+}
+
+.footerdiv ul{
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ justify-content: space-between;
+ padding-top: 20px;
+ width: 100%;
+}
+
+.footerdiv li {
+ list-style-type: none;
+}
+
+.footerdiv a {
+ text-decoration: none;
+ color: #90A1B1;
+}
+
+.footerdiv li:hover {
+ text-decoration: none;
+}
+.footerdiv a:hover
+{
+ text-decoration: none;
+}
+
+
+div.champform
+{
+ width: 100%;
+ height: 100%;
+ display: flex;
+ justify-content: space-around;
+}

@@ -1,0 +1,95 @@
+<div class="all">
+    <div class="page">
+      <header>
+  		<nav class="nav1">
+  			<ul id="list1">
+    			<li>
+      				<a href="/">
+        				<%= image_tag("thp.png", :alt => "thp", size: "45x45", class: "logo") %>
+      				</a>
+    			</li>
+						  	<div class="babar dropdown show">
+						  <a class="pierre btn-lg btn-secondary dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+						  </a>
+
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <%= link_to "Le Programme", {:controller => "statics", :action => "programme"}, class:"dropdown-item"%>
+						    <li class="divider"></li>
+                <%= link_to "Le Peer-Learning", {:controller => "statics", :action => "peer"}, class:"dropdown-item"%>
+						    <li class="divider"></li>
+                <%= link_to "Le Code", {:controller => "statics", :action => "communaute"}, class:"dropdown-item"%>
+						  </div>
+						</div>
+				</div>
+			</ul>
+  		</nav>
+  		<section class="secheader">
+  			<h2> The Hacking Project</h2>
+  			<h1> Devenir developpeur <br/> <br/> c'est à votre portée</h1>
+  		</section>
+  		<nav class="navmid">
+  			<ul class="listmid">
+  				<li>
+            <%= link_to "Programme", {:controller => "statics", :action => "programme"}, class:"bouttontest"%>
+  				</li>
+  				<li>
+  					<a href="https://www.thehackingproject.org/signup" class="bouttontest">Inscription</a>
+  				</li>
+  			</ul>
+      </header>
+  	</div>
+</div>
+<section class = "nextgen">
+        <h2> Un nouveau format d'apprentissage</h2>
+             <div class = "nextgencont">
+                    <div class="arguments">
+                        <span class="glyphicon glyphicon-education iconsize" aria-hidden="true"></span>
+                        <h3>La cohésion d'équipe</h3>
+                        <p >Le peer-learning redonne les lettres de noblesse à l'esprit de corps, où tout le monde galère, mais personne n'est laissé au dépourvu. Les plus forts soutiennent les plus faibles dans un esprit de bienveillance, pour que le niveau global soit plus élevé. Ce sont des rencontres qu'au final l'on n'aurait jamais fait sans The Hacking Project.</p>
+                    </div>
+
+                    <div class="arguments">
+                        <span class="glyphicon glyphicon-fire iconsize1" aria-hidden="true"></span>
+                        <h3>La motivation</h3>
+                        <p >Si se lever tous les matins pour faire un chapitre d'Open_Classrooms est impossible, le groupe donne une incentive très forte qui fait que nos taux de réussite de 40% feront pâlir d'envie d'importe quel MOOC sur terre.</p>
+                    </div>
+
+                    <div class="arguments">
+                        <span class="glyphicon glyphicon-check iconsize2" aria-hidden="true"></span>
+                        <h3>Meilleur niveau</h3>
+                        <p >Faire des projets en équipe permet d'accomplir des tâches plus difficiles que si l'on était seuls. Les projets sont suffisamment difficiles pour qu'une personne seule n'y arrive pas, mais aidée de son équipe elle les réussira sans (trop) de difficultés. Une formation en peer-learning permettra donc d'avoir un niveau plus élevé qu'un équivalent traditionnel, tout en étant plus ludique grâce aux projets</p>
+                    </div>
+
+                    <div class="arguments">
+                        <span class="glyphicon glyphicon-book iconsize3" aria-hidden="true"></span>
+                        <h3>Réapprendre à apprendre</h3>
+                        <p >Notre système de ressources - projets permet de réapprendre à apprendre. Imaginez, comme ressources du jour, nous donnons 2 livres, et un projet qui met au moins 6 heures à se réaliser. Les moussaillons devront aller chercher l'information rapidement pour pouvoir l'appliquer. Au bout de deux mois à faire ceci, apprendre une nouvelle compétence rapidement deviendra une habitude</p>
+                    </div>
+
+                    <div class="arguments">
+                        <span class="glyphicon glyphicon-duplicate iconsize4" aria-hidden="true"></span>
+                        <h3>Team player</h3>
+                        <p >Le travail en équipe est une compétence demandée dans 99% des fiches de poste sur Terre (nous cherchons encore le pourcent restant), cette compétence sera bien utile par la suite.</p>
+                    </div>
+
+                    <div class="arguments">
+                        <span class="glyphicon glyphicon-heart iconsize5" aria-hidden="true"></span>
+                        <h3>Formation gratuite</h3>
+                        <p >Enfin, notre principe de groupes autonomes répartis partout nous permet de proposer une formation gratuite, ouverte à tous, sans restriction géographique. Proposer une éducation professionnalisante où le seul pré-requis est la motivation est très important pour nous </p>
+                    </div>
+            </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footerdiv">
+            <ul>
+                <li><a href="#">Mention légales</a></li>
+                <li><a href="https://www.linkedin.com/edu/school?id=3155507">linkedin</a></li>
+                <li><a href="https://www.facebook.com/groups/1441101485946485/">facebook</a></li>
+                <li><a>© 2018, Made in Strasbourg.</a></li>
+            </ul>
+        </div>
+    </footer>
+     </div>
+</div>

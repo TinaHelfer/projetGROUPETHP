@@ -1,0 +1,51 @@
+<div class="all autrepage">
+   <div class="page">
+     <header>
+       <nav class="nav1">
+           <ul id="list1">
+               <li>
+                   <a href="/">
+                       <%= image_tag("thp.png", :alt => "thp", size: "45x45", class: "logo") %>
+                   </a>
+               </li>
+                           <div class="babar dropdown show">
+                         <a class="pierre btn-lg btn-secondary dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+                         </a>
+                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+               <%= link_to "Le Programme", {:controller => "statics", :action => "programme"}, class:"dropdown-item"%>
+                           <li class="divider"></li>
+
+               <%= link_to "Le Peer-Learning", {:controller => "statics", :action => "peer"}, class:"dropdown-item"%>
+                           <li class="divider"></li>
+               <%= link_to "Le Code", {:controller => "statics", :action => "communaute"}, class:"dropdown-item"%>
+                         </div>
+                       </div>
+           </ul>
+       </nav>
+   </header>
+   <div class="champform">
+
+     <div id="formulaire">
+      <h2>Inscription à notre newletter :</h2>
+      <br/>
+      <br/>
+      <%= form_tag(subscribe_path) do %>
+
+       <div class = "field">
+       <p> <%= label_tag 'email', "Votre email :" %> </p>
+       <p> <%= text_field_tag 'email' %> </p>
+       </div>
+       <div class = "field">
+       <p> <%= label_tag 'name', "Votre nom :" %> </p>
+       <p> <%= text_field_tag 'name' %> </p>
+       </div>
+       <div id="actions">
+       <%= submit_tag("Nous rejoindre!") %>
+       </div>
+        <% end %>
+       </div>
+     </div>
+   </div>
+ </div>
+
