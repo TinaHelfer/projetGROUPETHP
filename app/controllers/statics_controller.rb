@@ -14,8 +14,8 @@ class StaticsController < ApplicationController
 
     @subscriber = Subscriber.new(subscriber_params)
 
-  @key = "21a14fdeb3840c84411afffdc1a1483e-us17"
-  @id = "3b6b74e891"
+  @key = ""
+  @id = ""
 
   
   gibbon = Gibbon::Request.new(api_key: @key)
