@@ -36,12 +36,12 @@
 3. Stratégies d'acquisition :muscle:
  * Cible : étudiant ou actif/diplômé en reconversion
  * Un canal d'acquisition : les réseaux sociaux
-Tentative de posts facebook dans des groupes grâce à l'API
-Tentative de récupération d'id de membres facebook grâce à l'API
-Utiliser hunter : récupère toutes les adresse email des personne d'une entreprise comme pôle emploi pour toucher des non étudiants
-L'extension Chrome grouply pour extraire les profils facebook dans les groupes étudiants
-Utiliser le bot facebook de messenger pour envoyer des messages privés aux étudiants
-Scrapping des mairies du haut-rhin et bas-rhin plus envoi des emails
+  * Tentative de posts facebook dans des groupes grâce à l'API
+ * Tentative de récupération d'id de membres facebook grâce à l'API
+ * Utiliser hunter : récupère toutes les adresse email des personne d'une entreprise comme pôle emploi pour toucher des non     étudiants
+ * L'extension Chrome grouply pour extraire les profils facebook dans les groupes étudiants
+ * Utiliser le bot facebook de messenger pour envoyer des messages privés aux étudiants
+ * Scrapping des mairies du haut-rhin et bas-rhin plus envoi des emails
 4. Metrics :bar_chart:
  On a pas encore de visites :disappointed:
 5. Technique agile :thumbsup:
