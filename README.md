@@ -24,7 +24,7 @@
   * Un astucieux formulaire où l'on rentre le nom et l'adresse email, qui inscrit directement à la newsletter ( MailChimp)
  * Dans cet email, présentation de THP et un lien pour être redirigé vers le vrai site
 2. Comment a-t-on fait le code? :clock4:
- 2 loustiques sur le front : Adrien et Pierre
+ * 2 loustiques sur le front : Adrien et Pierre
  * Procédure de pas à pas
  * Testing sur deux ordis pour la même tâche
  * Se décharger un peu et Matthieu qui finit la partie Programmation, Tina qui fait le texte de la partie Code
