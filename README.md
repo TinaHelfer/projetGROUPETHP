@@ -2,7 +2,7 @@
 # Notre Readme :purple_heart:
 ## Le site:
 1. Design yeah
-  ..1. Page principale 
+  1. Page principale 
   * On a voulu faire quelque chose d'authentique, nous avons donc pris Adrien comme modèle! Le codeur à capuche, emblème parfait pour représenter THP. :wink:
   * Une police un peu futuriste
   * Du jaune pour contraster avec l'image foncée mais pas trop non plus pour éviter l'effet moutarde
